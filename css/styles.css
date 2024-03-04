@@ -21,7 +21,7 @@ body {
   font-family: "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #fff;
+  background-color:red;
   color: #222;
 }
 
@@ -71,6 +71,9 @@ select:-webkit-autofill:focus {
 /* CONTAINER */
 
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   max-width: 1200;
   padding-left: 50px;
@@ -83,4 +86,100 @@ select:-webkit-autofill:focus {
 
 .main-content {
   flex-grow: 1;
+}
+
+
+.tomato-title {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+}
+.tomato {
+  width: 600px;
+  border-radius: 6px;
+  background-color: black;
+}
+
+.tomato__btns {
+  padding-top: 50px;
+}
+
+.tomato__btns-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.tomato__btns-item {
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: #444;
+  cursor: pointer;
+
+}
+.tomato__btns-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.tomato__btns--active {
+  background-color: red;
+}
+
+.tomato__btn {
+  border: 0;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.tomato__btn:hover {
+  opacity: 0.8;
+}
+
+.tomota__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.tomato__body-item {
+  display: none;
+}
+
+.tomato__body-item--active {
+  display: block;
+}
+
+.tomato__item {
+  padding-top: 20px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 72px;
+  color: #fff;
+}
+
+.tomato__item-btns {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.tomato__item-btn {
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+}
+.tomato__item-start-btn {
+  margin-right: 15px;
+}
+.restart-btn {
+  display: none;
 }
