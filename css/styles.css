@@ -155,6 +155,7 @@ select:-webkit-autofill:focus {
 
 .tomato__body-item--active {
   display: block;
+  text-align: center;
 }
 
 .tomato__item {
@@ -177,7 +178,7 @@ select:-webkit-autofill:focus {
   color: black;
   cursor: pointer;
 }
-.tomato__item-start-btn {
+.tomato__item-btn:not(:last-child) {
   margin-right: 15px;
 }
 .restart-btn {
